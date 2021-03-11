@@ -1,0 +1,27 @@
+.team-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.squad-info {
+  box-shadow: 3px 0px 5px grey;
+}
+.home-div {
+  background-color: #3f1052;
+}
+@media (max-width: 688px) {
+  .team-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 992px) {
+  .team-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,52 @@
+.detail-container {
+  border: 1px solid black;
+  border-radius: 20px;
+  background: #3f1052;
+  color: white;
+  display: flex;
+}
+
+.rendered-image img {
+  width: 50%;
+  height: 90%;
+  margin-left: 50%;
+  padding-top: 20px;
+}
+
+.social-link {
+  margin-top: 107px;
+}
+.social-link h1 a {
+  color: red;
+  padding: 5px;
+}
+.banner-image {
+  background-image: url("https://i.pinimg.com/originals/9e/cd/c5/9ecdc5db91b0185628ef432ee7e34dfa.jpg");
+  height: 250px;
+  text-align: center;
+  font-size: 100px;
+}
+.banner-image img {
+  height: 60%;
+}
+.detail-div {
+  background-color: black;
+}
+.description {
+  color: aliceblue;
+}
+
+@media (max-width: 688px) {
+  .detail-container {
+    display: block;
+    text-align: center;
+  }
+  .rendered-image img {
+    width: 300px;
+    margin-left: 2px;
+    padding-right: 10px;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+}
